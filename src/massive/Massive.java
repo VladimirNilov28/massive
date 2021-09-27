@@ -82,7 +82,9 @@ public class Massive {
         str = "Это строка";
         System.out.println("str = " +str);
         System.out.println("Редактирование строки создаёт строку");
-        str = str.('а', 'и');
+        str = str.replace('а', 'и');
         System.out.println("str = "+str);
+        StringBuilder sb = new StringBuilder(str);
+        
     }
 }
