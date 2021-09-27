@@ -76,5 +76,13 @@ public class Massive {
             System.out.printf("%4d", sumCols2[i]);
         }
         System.out.println("");
+        
+        System.out.println("Строка в Java");
+        String str;
+        str = "Это строка";
+        System.out.println("str = " +str);
+        System.out.println("Редактирование строки создаёт строку");
+        str = str.('а', 'и');
+        System.out.println("str = "+str);
     }
 }
